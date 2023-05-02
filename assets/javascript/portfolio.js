@@ -47,7 +47,7 @@ $(document).ready(() => {
   }
 
   app.titleChanger([
-    "",
+    " ",
     "p",
     "pa",
     "pan",
@@ -65,7 +65,7 @@ $(document).ready(() => {
     "pan",
     "pa",
     "p",
-    "",
+    " ",
   ]);
   app.iconChanger(["assets/icons/favicon.ico"]);
 });
