@@ -38,6 +38,11 @@ $(document).ready(() => {
     if (i != links.length - 1) $("#marquee").append(" × ");
   }
 
+  if (mobileAndTabletCheck()) {
+    $('#background').replaceWith('<div id="background" style="background-image: url(https://media.tenor.com/9SBqqiVgUEQAAAAC/fallen-angels-wong-kar-wai.gif);"></div>');
+    app.shouldIgnoreVideo = true;
+  }
+
   app.titleChanger([
     "p",
     "pa",
@@ -48,6 +53,14 @@ $(document).ready(() => {
     "pando.w",
     "pando.wt",
     "pando.wtf",
+    "pando.wt",
+    "pando.w",
+    "pando.",
+    "pando",
+    "pand",
+    "pan",
+    "pa",
+    "p",
   ]);
   app.iconChanger(["assets/icons/favicon.ico"]);
 });
