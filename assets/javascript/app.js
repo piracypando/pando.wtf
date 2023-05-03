@@ -21,11 +21,10 @@ class _app {
   brandDescription = [
     "pando#0001",
     "i love my homies",
-    "Graphic Designer",
+    "i love photography",
     "pando#0001",
-    "Currently playing: The Perfect Girl - Maruex",
+    "Graphic and media designer",
   ];
-
   titleChanger = (text, delay) => {
     if (!text) return;
 
