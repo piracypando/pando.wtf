@@ -38,11 +38,6 @@ $(document).ready(() => {
     if (i != links.length - 1) $("#marquee").append(" × ");
   }
 
-  if (mobileAndTabletCheck()) {
-    $("#background").replaceWith(
-      '<div id="background" style="background-image: url(assets/images/mobile-background.jpg);"></div>'
-    );
-
     app.shouldIgnoreVideo = true;
   }
 
