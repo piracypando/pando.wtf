@@ -22,7 +22,7 @@ $(document).ready(() => {
     },
     {
       name: "Discord",
-      link: "https://discord.com/invite/bp4rxbYz",
+      link: "https://pando.wtf/discord,
     },
   ];
 
