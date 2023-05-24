@@ -44,6 +44,7 @@ $(document).ready(() => {
   }
 
   app.titleChanger([
+    "‎",
     "p",
     "pa",
     "pan",
@@ -61,8 +62,8 @@ $(document).ready(() => {
     "pan",
     "pa",
     "p",
+    "‎",
   ]);
-  app.iconChanger(["assets/icons/favicon.ico"]);
 });
 
 if ($.cookie("videoTime")) {
@@ -178,9 +179,7 @@ $.getJSON(ipgeolocation, (data) => {
 
     writeLine(
       [
-        ";))",
         `<span style='font-size: 14px; color: #fff;'>How is it in <i style='color: #8B00FF'>${country_name}?
-    \n<span style='font-size: 14px; color: #fff;'>And why the fuck are you using <i style='color: #8B00FF'>${isp}?
     `,
       ],
       55,
@@ -191,7 +190,7 @@ $.getJSON(ipgeolocation, (data) => {
         clearCursor();
 
         writeLine(
-          [`<i style='color: #F62459'>/// pando ;)</i>`],
+          [`<i style='color: #F62459'>/pando</i>`],
           120,
           500,
           () => {
