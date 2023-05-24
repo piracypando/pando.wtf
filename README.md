@@ -1,3 +1,3 @@
-# piracypando.github.io
+# pando.wtf
 
-real nice
+My personal website written in HTML, CSS & JS.
